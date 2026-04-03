@@ -77,8 +77,95 @@ Developer.new.say_hi
 
 </div>
 
-<!-- FEATURED PROJECTS -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24px"> Featured Projects
+<!-- PROFESSIONAL PROJECTS -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24px"> Professional Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> MuliPay
+**B2B Payment Automation Platform**
+
+Full-scale payment platform built from the ground up. Secure, scalable, API-first architecture supporting multi-tenant businesses, real-time transactions, and AI-powered automation workflows.
+
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+[![Website](https://img.shields.io/badge/mulipay.com-0B1120?style=for-the-badge&logo=googlechrome&logoColor=4ECDC4)](https://mulipay.com)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> SimpleRent
+**PropTech Ecosystem**
+
+Complete real estate platform for agencies, landlords, and tenants. Led team development, integrated payment gateways, document automation, and AI-driven workflows across multiple branded subdomains.
+
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+[![Website](https://img.shields.io/badge/simplerent.com.au-0B1120?style=for-the-badge&logo=googlechrome&logoColor=FBBF24)](https://go.simplerent.com.au)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-6BCB77?style=flat-square" alt=""/> AirCloset
+**Fashion Rental Platform**
+
+Online female fashion shopping and rental system for the Japanese market. Built scalable e-commerce features handling clothing categories, subscriptions, and logistics.
+
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
+
+[![Website](https://img.shields.io/badge/air--closet.com-0B1120?style=for-the-badge&logo=googlechrome&logoColor=6BCB77)](https://air-closet.com)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> Craftybase
+**Inventory & Bookkeeping SaaS**
+
+Leading SaaS for makers and manufacturers. Contributed senior-level enhancements focusing on performance optimization, Turbo/Hotwire upgrades, and background job improvements.
+
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![Hotwire](https://img.shields.io/badge/Hotwire-4ECDC4?style=flat-square&logo=stimulus&logoColor=white)
+![Sidekiq](https://img.shields.io/badge/Sidekiq-B1003E?style=flat-square&logo=sidekiq&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
+
+[![Website](https://img.shields.io/badge/craftybase.com-0B1120?style=for-the-badge&logo=googlechrome&logoColor=4ECDC4)](https://craftybase.com)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+
+### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> GoTeam Internal Tools
+**Recruitment & Operations Automation**
+
+Internal systems automating recruitment pipelines, onboarding, network security, and productivity tracking. Integrated with OAuth, Zoho, and Zapier for seamless cross-platform workflows.
+
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=flat-square&logo=zapier&logoColor=white)
+
+[![Website](https://img.shields.io/badge/go.team-0B1120?style=for-the-badge&logo=googlechrome&logoColor=FBBF24)](https://go.team)
+
+</td>
+</tr>
+</table>
+
+<!-- OPEN SOURCE PROJECTS -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="24px"> Open Source
 
 <div align="center">
 <a href="https://github.com/crisnahine/rails-ai-context">
