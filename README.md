@@ -167,27 +167,44 @@ Internal systems automating recruitment pipelines, onboarding, network security,
 <!-- OPEN SOURCE PROJECTS -->
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="24px"> Open Source
 
-<div align="center">
-<a href="https://github.com/crisnahine/rails-ai-context">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=crisnahine&repo=rails-ai-context&hide_border=true&border_radius=12&bg_color=0B1120&title_color=4ECDC4&icon_color=FBBF24&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/crisnahine/CLAUDEMD-PRO">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=crisnahine&repo=CLAUDEMD-PRO&hide_border=true&border_radius=12&bg_color=0B1120&title_color=FBBF24&icon_color=4ECDC4&text_color=c9d1d9" />
-</a>
-</div>
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> [rails-ai-context](https://github.com/crisnahine/rails-ai-context)
+Auto-introspect your Rails app and expose it to AI assistants via MCP. 39 tools, zero config, works with Claude, Cursor, Copilot, and any MCP client.
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/crisnahine/rails-ai-context?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/rails-ai-context)
+[![Forks](https://img.shields.io/github/forks/crisnahine/rails-ai-context?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/rails-ai-context)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> [CLAUDEMD-PRO](https://github.com/crisnahine/CLAUDEMD-PRO)
+Deep codebase-aware CLAUDE.md generator, linter, and effectiveness scorer.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/crisnahine/CLAUDEMD-PRO?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/CLAUDEMD-PRO)
+[![Forks](https://img.shields.io/github/forks/crisnahine/CLAUDEMD-PRO?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/CLAUDEMD-PRO)
+
+</td>
+</tr>
+</table>
 
 <!-- GITHUB STATS -->
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ris/giphy.gif" width="24px"> GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=crisnahine&show_icons=true&hide_border=true&border_radius=12&bg_color=0B1120&title_color=4ECDC4&icon_color=FBBF24&text_color=c9d1d9&ring_color=4ECDC4" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/3-stats.svg" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=crisnahine&hide_border=true&border_radius=12&background=0B1120&ring=4ECDC4&fire=FBBF24&currStreakLabel=4ECDC4&sideLabels=c9d1d9&currStreakNum=FBBF24&sideNums=6BCB77&dates=555555" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=crisnahine&layout=compact&hide_border=true&border_radius=12&bg_color=0B1120&title_color=4ECDC4&text_color=c9d1d9&langs_count=8" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/1-repos-per-language.svg" alt="Top Languages by Repo" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/2-most-commit-language.svg" alt="Top Languages by Commit" />
 </div>
 
 <!-- ACTIVITY GRAPH -->
