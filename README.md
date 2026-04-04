@@ -33,8 +33,8 @@ class Developer
     @name   = "Cris Nahine"
     @role   = "Full Stack Web Developer"
     @skills = {
-      languages:  %w[Ruby JavaScript TypeScript HTML CSS SQL],
-      frameworks: %w[Rails React Node.js],
+      languages:  %w[Ruby JavaScript TypeScript Go HTML CSS SQL],
+      frameworks: %w[Rails React Vue.js Node.js],
       databases:  %w[PostgreSQL MySQL Redis],
       tools:      %w[Docker Git GitHub CI/CD],
       currently:  "Building AI-powered developer tools"
@@ -60,11 +60,13 @@ Developer.new.say_hi
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4ECDC4?style=for-the-badge&logo=postgresql&logoColor=0B1120)
 
 #### Frameworks & Libraries
 ![Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
 ![React](https://img.shields.io/badge/React-4ECDC4?style=for-the-badge&logo=react&logoColor=0B1120)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6BCB77?style=for-the-badge&logo=nodedotjs&logoColor=0B1120)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
