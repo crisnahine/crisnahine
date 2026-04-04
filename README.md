@@ -23,7 +23,7 @@
 </div>
 
 <!-- ABOUT ME -->
-## About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="28px"> About Me
 
 ```ruby
 class Developer
@@ -50,7 +50,7 @@ Developer.new.say_hi
 ```
 
 <!-- TECH STACK -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> Tech Stack
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28px"> Tech Stack
 
 <div align="center">
 
@@ -78,7 +78,7 @@ Developer.new.say_hi
 </div>
 
 <!-- PROFESSIONAL PROJECTS -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24px"> Professional Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28px"> Professional Projects
 
 <table>
 <tr>
@@ -165,7 +165,7 @@ Internal systems automating recruitment pipelines, onboarding, network security,
 </table>
 
 <!-- OPEN SOURCE PROJECTS -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="24px"> Open Source
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28px"> Open Source
 
 <table align="center">
 <tr>
@@ -193,7 +193,7 @@ Deep codebase-aware CLAUDE.md generator, linter, and effectiveness scorer.
 </table>
 
 <!-- GITHUB STATS -->
-## GitHub Analytics
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="28px"> GitHub Analytics
 
 <div align="center">
   <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub Stats" />
