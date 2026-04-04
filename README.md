@@ -23,7 +23,7 @@
 </div>
 
 <!-- ABOUT ME -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anis/Tarikul-Islam-Anis/main/assets/Hi.gif" width="28px"> About Me
+## About Me
 
 ```ruby
 class Developer
@@ -193,18 +193,18 @@ Deep codebase-aware CLAUDE.md generator, linter, and effectiveness scorer.
 </table>
 
 <!-- GITHUB STATS -->
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ris/giphy.gif" width="24px"> GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/3-stats.svg" alt="GitHub Stats" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=crisnahine&hide_border=true&border_radius=12&background=0B1120&ring=4ECDC4&fire=FBBF24&currStreakLabel=4ECDC4&sideLabels=c9d1d9&currStreakNum=FBBF24&sideNums=6BCB77&dates=555555" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/1-repos-per-language.svg" alt="Top Languages by Repo" />
-  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/github_dark/2-most-commit-language.svg" alt="Top Languages by Commit" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top Languages by Repo" />
+  <img width="49%" src="https://raw.githubusercontent.com/crisnahine/crisnahine/stats/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top Languages by Commit" />
 </div>
 
 <!-- ACTIVITY GRAPH -->
