@@ -7,18 +7,12 @@
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&color=4ECDC4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+scalable+apps+with+Ruby+on+Rails;Crafting+developer+tools+that+matter;Open+source+contributor+%26+creator" alt="Typing SVG" />
 </a>
-
 <br/>
-
-<!-- SOCIAL BADGES -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=4ECDC4)](https://linkedin.com/in/cjnahine05)
-[![Gmail](https://img.shields.io/badge/Gmail-0B1120?style=for-the-badge&logo=gmail&logoColor=FBBF24)](mailto:crisjosephnahine@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=6BCB77)](https://github.com/crisnahine)
-
-<br/>
-
-<!-- PROFILE VIEWS -->
-<img src="https://komarev.com/ghpvc/?username=crisnahine&style=for-the-badge&color=4ECDC4&label=PROFILE+VIEWS" alt="Profile Views"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1120?style=flat-square&logo=linkedin&logoColor=4ECDC4)](https://linkedin.com/in/cjnahine05)
+[![Gmail](https://img.shields.io/badge/Gmail-0B1120?style=flat-square&logo=gmail&logoColor=FBBF24)](mailto:crisjosephnahine@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github&logoColor=6BCB77)](https://github.com/crisnahine)
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=crisnahine&style=flat-square&color=4ECDC4&label=views" alt="Profile Views"/>
 
 </div>
 
