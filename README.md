@@ -11,6 +11,7 @@
 <a href="https://linkedin.com/in/cjnahine05"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=flat-square&logo=linkedin&logoColor=4ECDC4" alt="LinkedIn"/></a>
 <a href="mailto:crisjosephnahine@gmail.com"><img src="https://img.shields.io/badge/Gmail-0B1120?style=flat-square&logo=gmail&logoColor=FBBF24" alt="Gmail"/></a>
 <a href="https://github.com/crisnahine"><img src="https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github&logoColor=6BCB77" alt="GitHub"/></a>
+<a href="https://discord.com/users/crisnahine"><img src="https://img.shields.io/badge/Discord-0B1120?style=flat-square&logo=discord&logoColor=5865F2" alt="Discord"/></a>
 &nbsp;
 <img src="https://komarev.com/ghpvc/?username=crisnahine&style=flat-square&color=4ECDC4&label=views" alt="Profile Views"/>
 
