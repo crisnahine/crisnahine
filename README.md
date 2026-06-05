@@ -114,7 +114,7 @@ Rails engine implementing the MCP spec. Shipped MCP Apps support (`renders_ui` D
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 [![Stars](https://img.shields.io/github/stars/seuros/action_mcp?style=flat-square&color=FBBF24&label=stars)](https://github.com/seuros/action_mcp)
-[![PRs](https://img.shields.io/badge/5_merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/seuros/action_mcp/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
+[![PRs](https://img.shields.io/badge/merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/seuros/action_mcp/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
 
 </td>
 <td width="50%" valign="top">
@@ -136,7 +136,7 @@ Auto-unsend tool for Facebook Messenger. Added facebook.com/messages support, fi
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 [![Stars](https://img.shields.io/github/stars/theahura/shoot-the-messenger?style=flat-square&color=FBBF24&label=stars)](https://github.com/theahura/shoot-the-messenger)
-[![PRs](https://img.shields.io/badge/2_merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/theahura/shoot-the-messenger/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
+[![PRs](https://img.shields.io/badge/merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/theahura/shoot-the-messenger/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
 
 </td>
 </tr>
