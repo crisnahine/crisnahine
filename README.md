@@ -74,6 +74,74 @@ Developer.new.say_hi
 
 </div>
 
+<!-- OPEN SOURCE PROJECTS -->
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28px"> Open Source
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> [rails-ai-context](https://github.com/crisnahine/rails-ai-context)
+Auto-introspect your Rails app and expose it to AI assistants via MCP. 39 tools, zero config, works with Claude, Cursor, Copilot, and any MCP client.
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/crisnahine/rails-ai-context?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/rails-ai-context)
+[![Forks](https://img.shields.io/github/forks/crisnahine/rails-ai-context?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/rails-ai-context)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> [chameleon](https://github.com/crisnahine/chameleon)
+Claude Code plugin that learns your repo's conventions and injects archetype-aware guidance per edit, so generated code matches your style on the first try. TypeScript and Ruby on Rails.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/crisnahine/chameleon?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/chameleon)
+[![Forks](https://img.shields.io/github/forks/crisnahine/chameleon?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/chameleon)
+
+</td>
+</tr>
+</table>
+
+<!-- CONTRIBUTIONS -->
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="28px"> Contributions
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-6BCB77?style=flat-square" alt=""/> [action_mcp](https://github.com/seuros/action_mcp)
+Rails engine implementing the MCP spec. Shipped MCP Apps support (`renders_ui` DSL), `_meta` passthrough on resource reads, RFC 9110-compliant 405 responses, and registry fixes.
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/seuros/action_mcp?style=flat-square&color=FBBF24&label=stars)](https://github.com/seuros/action_mcp)
+[![PRs](https://img.shields.io/badge/5_merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/seuros/action_mcp/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> [interactor](https://github.com/collectiveidea/interactor)
+The standard service-object gem for Ruby. Authored the v4.0.0 proposal replacing OpenStruct with a hash-backed Context.
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/collectiveidea/interactor?style=flat-square&color=FBBF24&label=stars)](https://github.com/collectiveidea/interactor)
+[![PR](https://img.shields.io/badge/PR_%23225-open-4ECDC4?style=flat-square&logo=git&logoColor=white)](https://github.com/collectiveidea/interactor/pull/225)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+
+### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> [shoot-the-messenger](https://github.com/theahura/shoot-the-messenger)
+Auto-unsend tool for Facebook Messenger. Added facebook.com/messages support, fixed an infinite scroll loop, and migrated scraping to stable DOM selectors.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[![Stars](https://img.shields.io/github/stars/theahura/shoot-the-messenger?style=flat-square&color=FBBF24&label=stars)](https://github.com/theahura/shoot-the-messenger)
+[![PRs](https://img.shields.io/badge/2_merged_PRs-6BCB77?style=flat-square&logo=git&logoColor=white)](https://github.com/theahura/shoot-the-messenger/pulls?q=is%3Apr+author%3Acrisnahine+is%3Amerged)
+
+</td>
+</tr>
+</table>
+
 <!-- PROFESSIONAL PROJECTS -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28px"> Professional Projects
 
@@ -156,34 +224,6 @@ Internal systems automating recruitment pipelines, onboarding, network security,
 ![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=flat-square&logo=zapier&logoColor=white)
 
 [![Website](https://img.shields.io/badge/go.team-0B1120?style=for-the-badge&logo=googlechrome&logoColor=FBBF24)](https://go.team)
-
-</td>
-</tr>
-</table>
-
-<!-- OPEN SOURCE PROJECTS -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28px"> Open Source
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/●-4ECDC4?style=flat-square" alt=""/> [rails-ai-context](https://github.com/crisnahine/rails-ai-context)
-Auto-introspect your Rails app and expose it to AI assistants via MCP. 39 tools, zero config, works with Claude, Cursor, Copilot, and any MCP client.
-
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
-[![Stars](https://img.shields.io/github/stars/crisnahine/rails-ai-context?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/rails-ai-context)
-[![Forks](https://img.shields.io/github/forks/crisnahine/rails-ai-context?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/rails-ai-context)
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/●-FBBF24?style=flat-square" alt=""/> [CLAUDEMD-PRO](https://github.com/crisnahine/CLAUDEMD-PRO)
-Deep codebase-aware CLAUDE.md generator, linter, and effectiveness scorer.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-[![Stars](https://img.shields.io/github/stars/crisnahine/CLAUDEMD-PRO?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/CLAUDEMD-PRO)
-[![Forks](https://img.shields.io/github/forks/crisnahine/CLAUDEMD-PRO?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/CLAUDEMD-PRO)
 
 </td>
 </tr>
