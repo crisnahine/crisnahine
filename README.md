@@ -100,6 +100,20 @@ Claude Code plugin that learns your repo's conventions and injects archetype-awa
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/●-3B82F6?style=flat-square" alt=""/> [anatomiya](https://github.com/crisnahine/anatomiya)
+Claude Code plugin that learns your repo's house style from its own code and git history, so the agent reuses the helper you already have. With it, 145 of 160 measured sessions did; without it, 31 of 160.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[![Stars](https://img.shields.io/github/stars/crisnahine/anatomiya?style=flat-square&color=FBBF24&label=stars)](https://github.com/crisnahine/anatomiya)
+[![Forks](https://img.shields.io/github/forks/crisnahine/anatomiya?style=flat-square&color=4ECDC4&label=forks)](https://github.com/crisnahine/anatomiya)
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 <!-- CONTRIBUTIONS -->
