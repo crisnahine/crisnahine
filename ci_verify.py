@@ -1,7 +1,8 @@
 """Cross-platform verification run by CI on Linux, macOS and Windows.
 
 Checks, on the current OS:
-  1. The single abi3 wheel installs and works on Python 3.10, 3.12 and 3.13.
+  1. The single abi3 wheel installs and works on three native Python versions
+     (3.10, 3.12, 3.13; on Windows ARM64, where official installers start at 3.11: 3.11, 3.12, 3.13).
   2. demo.py: PyO3 module, Rust CLI and pure Python give identical results.
   3. Python threads calling Rust run in parallel (GIL released).
 Exits non-zero on any failure.
@@ -24,7 +25,8 @@ CHECK = (
     "open(p, 'w').write('x\\nfn main(){}\\n')\n"
     "r = hybrid_search.search([p], 'fn')\n"
     "assert r == [(p, 2, 'fn main(){}')], r\n"
-    "print('  Python', sys.version.split()[0], 'OK')\n"
+    "import platform\n"
+    "print('  Python', sys.version.split()[0], platform.machine(), 'OK')\n"
 )
 
 
@@ -39,10 +41,18 @@ def venv_python(venv):
     return os.path.join(venv, sub, exe)
 
 
+machine = platform.machine().lower()
+win_arm = os.name == "nt" and machine in ("arm64", "aarch64")
+# Official python.org Windows ARM64 installers start at 3.11 (older builds were NuGet-only).
+versions = ["3.11", "3.12", "3.13"] if win_arm else ["3.10", "3.12", "3.13"]
+UV_OS = {"Windows": "windows", "Darwin": "macos", "Linux": "linux"}[platform.system()]
+UV_ARCH = {"amd64": "x86_64", "x86_64": "x86_64", "arm64": "aarch64", "aarch64": "aarch64"}[machine]
+
 last = None
-for v in ["3.10", "3.12", "3.13"]:
+for v in versions:
     venv = os.path.join(ROOT, f".ci-venv-{v}")
-    run(["uv", "venv", "-q", "--clear", "-p", v, venv])
+    # Request a native interpreter explicitly, so no emulated Python is used.
+    run(["uv", "venv", "-q", "--clear", "-p", f"cpython-{v}-{UV_OS}-{UV_ARCH}", venv])
     py = venv_python(venv)
     run(["uv", "pip", "install", "-q", "-p", py, wheel])
     run([py, "-c", CHECK])
