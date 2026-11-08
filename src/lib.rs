@@ -29,7 +29,8 @@ mod py {
         py.detach(|| super::search(&paths, &pattern))
     }
 
-    #[pymodule]
+    // Pure function, no shared mutable state: safe without the GIL.
+    #[pymodule(gil_used = false)]
     fn hybrid_search(m: &Bound<'_, PyModule>) -> PyResult<()> {
         m.add_function(wrap_pyfunction!(search, m)?)?;
         Ok(())

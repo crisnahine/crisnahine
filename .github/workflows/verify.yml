@@ -14,7 +14,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, ubuntu-24.04-arm, windows-latest, windows-11-arm, macos-latest, macos-15-intel]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,6 +33,16 @@ jobs:
       - name: Install build tools
         run: python -m pip install maturin uv
       - name: Build abi3 wheel
-        run: maturin build --release --out dist
-      - name: Verify on this OS
+        run: maturin build --release --out dist --features abi3
+      - name: Verify abi3 wheel on standard Python
         run: python ci_verify.py
+      - name: Verify free-threaded (no-GIL) Python 3.14
+        run: python ci_freethreaded.py
+      - name: Verify fully static musl binary (Linux)
+        if: runner.os == 'Linux'
+        shell: bash
+        run: |
+          T=${{ runner.arch == 'ARM64' && 'aarch64-unknown-linux-musl' || 'x86_64-unknown-linux-musl' }}
+          rustup target add "$T"
+          cargo build --release --bin hsearch --target "$T"
+          python ci_static.py "$T"
