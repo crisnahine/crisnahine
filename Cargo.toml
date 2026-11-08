@@ -1,0 +1,18 @@
+[package]
+name = "hybrid_search"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "hybrid_search"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "hsearch"
+path = "src/main.rs"
+
+[dependencies]
+pyo3 = { version = "0.27", features = ["extension-module", "abi3-py39"], optional = true }
+
+[features]
+python = ["dep:pyo3"]

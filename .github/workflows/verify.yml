@@ -1,0 +1,37 @@
+name: verify-hybrid
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Toolchain versions
+        run: |
+          rustc --version
+          cargo --version
+          python --version
+      - name: Rust core tests without Python feature
+        run: cargo test --lib
+      - name: Build Rust CLI
+        run: cargo build --release --bin hsearch
+      - name: Install build tools
+        run: python -m pip install maturin uv
+      - name: Build abi3 wheel
+        run: maturin build --release --out dist
+      - name: Verify on this OS
+        run: python ci_verify.py
