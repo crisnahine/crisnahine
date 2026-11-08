@@ -58,14 +58,18 @@ run([py, "demo.py"])
 
 # 5. Parallel threads.
 run([py, "-c",
-     "import os, tempfile, time, threading, hybrid_search\n"
-     "d = tempfile.mkdtemp(); paths = []\n"
-     "for f in range(100):\n"
-     "    p = os.path.join(d, f'{f}.txt'); open(p, 'w').write('noise line here\\n' * 20000 + 'needle\\n'); paths.append(p)\n"
-     "hybrid_search.search(paths, 'needle')\n"
-     "t = time.perf_counter(); [hybrid_search.search(paths, 'needle') for _ in range(4)]; s = time.perf_counter() - t\n"
-     "ts = [threading.Thread(target=hybrid_search.search, args=(paths, 'needle')) for _ in range(4)]\n"
-     "t = time.perf_counter(); [x.start() for x in ts]; [x.join() for x in ts]; p = time.perf_counter() - t\n"
-     "print(f'  cpus={os.cpu_count()} serial={s*1000:.0f}ms threads={p*1000:.0f}ms speedup={s/p:.2f}x')\n"
-     "assert (os.cpu_count() or 1) < 2 or s / p > 1.2\n"])
+     'import os, statistics, tempfile, time, threading, hybrid_search\n'
+    'd = tempfile.mkdtemp(); paths = []\n'
+    'for f in range(100):\n'
+    "    p = os.path.join(d, f'{f}.txt'); open(p, 'w').write('noise line here\\n' * 20000 + 'needle\\n'); paths.append(p)\n"
+    "hybrid_search.search(paths, 'needle')\n"
+    'sp = []\n'
+    'for trial in range(5):\n'
+    "    t = time.perf_counter(); [hybrid_search.search(paths, 'needle') for _ in range(4)]; s = time.perf_counter() - t\n"
+    "    ts = [threading.Thread(target=hybrid_search.search, args=(paths, 'needle')) for _ in range(4)]\n"
+    '    t = time.perf_counter(); [x.start() for x in ts]; [x.join() for x in ts]; p = time.perf_counter() - t\n'
+    "    sp.append(s / p); print(f'  trial {trial+1}: serial={s*1000:.0f}ms threads={p*1000:.0f}ms speedup={s/p:.2f}x')\n"
+    'm = statistics.median(sp)\n'
+    "print(f'  cpus={os.cpu_count()} median speedup over 5 trials={m:.2f}x (all: ' + ', '.join(f'{x:.2f}' for x in sp) + ')')\n"
+    "assert (os.cpu_count() or 1) < 2 or m > 1.2, 'no parallel speedup'\n"])
 print("FREE-THREADED CHECKS PASSED on", platform.system(), platform.machine())
