@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 56" width="880" height="56" role="img" aria-labelledby="t d">
+<!-- written by tools/gen_assets.py; edit that, not this file -->
+<title id="t">01: What I build</title>
+<desc id="d">Section 01 of the profile: What I build.</desc>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace} .pre{white-space:pre}
+@media (prefers-reduced-motion: reduce) { .mv { animation: none !important; } }
+.run{animation:run 4.8s cubic-bezier(.6,0,.25,1) infinite}
+@keyframes run { 0% {stroke-dashoffset:8} 8% {stroke-dashoffset:8} 30% {stroke-dashoffset:-100} 100% {stroke-dashoffset:-100} }
+</style>
+<rect width="880" height="56" rx="10" fill="#0c0c0e"/><text x="32" y="33" class="m pre" font-size="14" font-weight="500" fill="#8f8f98" >01</text><text x="72" y="33" class="m pre" font-size="15" font-weight="700" fill="#f2eee3" letter-spacing="1.6">WHAT I BUILD</text><path d="M223.2 28 H812" stroke="#2a2a2f"/><path class="mv run" d="M223.2 28 H812" pathLength="100" fill="none" stroke="#d9ff3d" stroke-width="3" stroke-dasharray="8 300" stroke-dashoffset="8"/><rect x="822" y="24" width="8" height="8" fill="#d9ff3d"/>
+</svg>

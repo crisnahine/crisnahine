@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-labelledby="t d">
+<!-- written by tools/gen_assets.py; edit that, not this file -->
+<title id="t">search</title>
+<desc id="d">Icon: search.</desc>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace} .pre{white-space:pre}
+@media (prefers-reduced-motion: reduce) { .mv { animation: none !important; } }
+
+</style>
+<rect width="32" height="32" rx="6" fill="#0c0c0e"/><g transform="translate(4 4)" stroke="#f2eee3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></g><rect x="24" y="24" width="4" height="4" fill="#d9ff3d"/>
+</svg>

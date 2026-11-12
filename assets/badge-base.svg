@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 24" width="165" height="24" role="img" aria-labelledby="t d">
+<!-- written by tools/gen_assets.py; edit that, not this file -->
+<title id="t">base: Ruby on Rails</title>
+<desc id="d">Badge: base Ruby on Rails.</desc>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace} .pre{white-space:pre}
+@media (prefers-reduced-motion: reduce) { .mv { animation: none !important; } }
+
+</style>
+<rect width="165" height="24" fill="#0c0c0e"/><rect x="51.7" width="113.6" height="24" fill="#0c0c0e"/><path d="M51.7 6 V18" stroke="#2a2a2f"/><text x="10" y="16" class="m pre" font-size="11" font-weight="400" fill="#8f8f98" letter-spacing="1.32">BASE</text><text x="61.7" y="16.5" class="m pre" font-size="12" font-weight="400" fill="#f2eee3" >Ruby on Rails</text>
+</svg>

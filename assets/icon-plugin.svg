@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-labelledby="t d">
+<!-- written by tools/gen_assets.py; edit that, not this file -->
+<title id="t">plugin</title>
+<desc id="d">Icon: plugin.</desc>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace} .pre{white-space:pre}
+@media (prefers-reduced-motion: reduce) { .mv { animation: none !important; } }
+
+</style>
+<rect width="32" height="32" rx="6" fill="#0c0c0e"/><g transform="translate(4 4)" stroke="#f2eee3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M9 3v4M15 3v4M6 7h12v4a6 6 0 0 1-12 0z M12 17v4"/></g><rect x="24" y="24" width="4" height="4" fill="#d9ff3d"/>
+</svg>
